@@ -12,7 +12,7 @@ class TodoListViewController: UITableViewController
 {
     //MARK: - Global Variables
     var itemArray = [String]()
-    let defaults = UserDefaults()
+    let defaults = UserDefaults.standard
     override func viewDidLoad()
     {
         super.viewDidLoad()
